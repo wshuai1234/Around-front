@@ -1,0 +1,33 @@
+@import '../../node_modules/antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  float :left;
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  color: white;
+}
+
+.App-title {
+  float : left;
+  color: #61dafb;
+  font-size: 1.5em;
+  padding-top: 16px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
